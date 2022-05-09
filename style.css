@@ -1,0 +1,137 @@
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;
+    background-color: #212478;
+}
+
+h2 {
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 1.3em;
+}
+
+h3 {
+    font-family: dirtstorm, sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+    font-style: normal;
+    
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.bg1{
+    background-image:url("images/backgroundheader.jpg");
+    background-size:cover;
+    height: 50vh;
+    
+    }
+.mainhead {
+    color: white;
+    font-family: dirtstorm, sans-serif;
+    font-weight: 400;
+    font-size: 2.3em;
+    font-style: normal;
+
+}
+
+.secondaryhead {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+
+}
+
+.titletext {
+    padding-top: 25px;
+}
+
+.pad20 {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.pad15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pad30 {
+padding-top: 30px; 
+padding-bottom: 30px;
+}
+
+.bg2 {
+    background-image: url("images/altbg2.jpg")
+}
+
+.blue {
+    color: #212478;
+}
+
+.whattext {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.bg3 {
+    background-image: url("images/bg3.jpg");
+    padding-bottom: 20px;
+}
+.bannerstyle {
+    color:white;
+    text-align: center;
+    font-family: dirtstorm, sans-serif;
+    font-weight: 400;
+    font-size: 2.4em;
+    font-style: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    
+}
+
+.banner {
+    background-color:#E73DC2;
+
+}
+
+.bio {
+    background-color: #212478;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+
+}
+.btn-style {
+    background-color:#A91FB5;
+    color: white;
+}
+
+.bannersocial {
+    background-color: #CCEFFD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padright {
+    padding-right: 10px;
+}
+
+.footer {
+    background-color: #212478;
+    color: white;
+    padding-top: 20px;
+    font-size: 0.8em;
+    font-family: 'Oswald', sans-serif;
+}
