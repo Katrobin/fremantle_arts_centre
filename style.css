@@ -18,6 +18,11 @@ h3 {
     
 }
 
+a {
+    color: #A91FB5;
+    text-decoration: underline;
+
+}
 p{
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
@@ -116,22 +121,60 @@ padding-bottom: 30px;
 .btn-style {
     background-color:#A91FB5;
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 .bannersocial {
     background-color: #CCEFFD;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;
 }
 
 .padright {
     padding-right: 10px;
 }
 
+.padleftbutton {
+    padding-left: 10px;
+}
+
+.eventslink {
+    font-family: dirtstorm, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+    color: #A91FB5;
+}
 .footer {
     background-color: #212478;
     color: white;
     padding-top: 20px;
     font-size: 0.8em;
     font-family: 'Oswald', sans-serif;
+}
+
+#parallelogram {
+    margin: auto;
+    height: auto;
+    background: #E73DC2;
+    clip-path: polygon(60px 4.80%, 99.51% 4.71%, 98.85% 83.01%, 36px 80.73%);
+    padding: 30px;
+}
+
+#bioshaperight {
+margin: auto;
+height: auto;
+background: #212478;
+clip-path: polygon(2px 17.3%, 99.39% 6.19%, 94.02% 90.8%, 4px 83.63%);
+padding: 30px
+}
+
+#bioshapeleft {
+    margin: auto;
+    height: auto;
+    background: #212478;
+    clip-path: polygon(1px 4.61%, 99.85% 12.22%, 99.63% 85.37%, 31px 89.67%);
+    padding: 30px;
 }
