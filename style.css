@@ -51,6 +51,13 @@ p{
 
 }
 
+.eventshead {
+    color: white;
+    font-family: dirtstorm, sans-serif;
+    font-weight: 400;
+    font-size: 3.5em;
+    font-style: normal;
+}
 .titletext {
     padding-top: 25px;
 }
