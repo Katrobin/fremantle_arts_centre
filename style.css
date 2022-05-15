@@ -32,8 +32,9 @@ p{
     background-image:url("images/backgroundheader.jpg");
     background-size:cover;
     height: 60vh;
-    
+
     }
+    
 .mainhead {
     color: white;
     font-family: dirtstorm, sans-serif;
@@ -60,6 +61,11 @@ padding-bottom: 20px;
 }
 
 .pad15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pad10 {
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -124,6 +130,20 @@ padding-bottom: 30px;
     font-family: 'Oswald', sans-serif;
 }
 
+.btn-stylebold {
+    background-color:#A91FB5;
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 600;
+}
+
+.btn-friends {
+    background-color:#E9BFED;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
 .bannersocial {
     background-color: #CCEFFD;
     padding-top: 10px;
@@ -167,7 +187,7 @@ padding-bottom: 30px;
 margin: auto;
 height: auto;
 background: #212478;
-clip-path: polygon(2px 17.3%, 99.39% 6.19%, 94.02% 90.8%, 4px 83.63%);
+clip-path: polygon(2px 19.72%, 95.12% 3.17%, 94.25% 90.80%, 16px 84.84%);
 padding: 30px
 }
 
@@ -175,6 +195,22 @@ padding: 30px
     margin: auto;
     height: auto;
     background: #212478;
-    clip-path: polygon(1px 4.61%, 99.85% 12.22%, 99.63% 85.37%, 31px 89.67%);
+    clip-path: polygon(2px 2.79%, 96.04% 12.22%, 92.67% 87.79%, 11px 84.24%);
+    padding: 30px;
+}
+
+.bgeventshead{
+    background-image: url("images/moorditj.jpg");
+    background-size:cover;
+    height: 60vh;
+}
+
+
+
+#parallelogramevents {
+    margin: auto;
+    height: auto;
+    background: #FC7475;
+    clip-path: polygon(60px 4.80%, 99.51% 4.71%, 98.85% 83.01%, 36px 80.73%);
     padding: 30px;
 }
