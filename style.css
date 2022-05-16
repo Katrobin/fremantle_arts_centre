@@ -173,6 +173,17 @@ padding-bottom: 30px;
     font-size: 2em;
     font-style: normal;
     color: #A91FB5;
+
+    
+}
+
+.wantmorebg {
+    background-image: url("images/bgbrickwhite.jpg");
+    padding-bottom: 20px;
+}
+
+.strong {
+    font-weight: 700;
 }
 .footer {
     background-color: #212478;
@@ -206,10 +217,14 @@ padding: 30px
     padding: 30px;
 }
 
-.bgeventshead{
+.bgeventshead {
     background-image: url("images/moorditj.jpg");
     background-size:cover;
     height: 60vh;
+}
+
+.wantmore {
+    padding-left: 120px;
 }
 
 
@@ -219,5 +234,13 @@ padding: 30px
     height: auto;
     background: #FC7475;
     clip-path: polygon(60px 4.80%, 99.51% 4.71%, 98.85% 83.01%, 36px 80.73%);
+    padding: 30px;
+}
+
+#polygonwantmore {
+    margin: auto;
+    height: auto;
+    background: #CCEFFD;
+    clip-path: polygon(63px -0.99%, 99.51% 4.13%, 98.62% 88.80%, 37px 92.9%);
     padding: 30px;
 }
