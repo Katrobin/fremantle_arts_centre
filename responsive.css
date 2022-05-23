@@ -40,4 +40,12 @@ text-align: center;
         clip-path: polygon(4px 8.42%, 99.51% 4.71%, 98.85% 83.01%, -1px 79.83%);
         padding: 30px;
 }
+
+.mainhead {
+    font-size: 1.6em;
+}
+
+.secondaryhead {
+    font-size: 1em;
+}
 }
