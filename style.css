@@ -20,7 +20,7 @@ h3 {
 
 a {
     color: #A91FB5;
-    text-decoration: underline;
+    
 
 }
 p{
@@ -119,6 +119,13 @@ padding-bottom: 30px;
 
 }
 
+.events-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+
+}
+
 .bio {
     background-color: #212478;
     color: white;
@@ -156,7 +163,17 @@ padding-bottom: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Oswald', sans-serif;
-    font-size: 0.8em;
+    font-size: 1em;
+    text-align: center;
+
+
+}
+
+
+.list-style {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    
 }
 
 .padright {
@@ -173,6 +190,7 @@ padding-bottom: 30px;
     font-size: 2em;
     font-style: normal;
     color: #A91FB5;
+    text-decoration: underline;
 
     
 }
@@ -184,13 +202,29 @@ padding-bottom: 30px;
 
 .strong {
     font-weight: 700;
+
+}
+
+.eventpad{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+
 }
 .footer {
     background-color: #212478;
     color: white;
-    padding-top: 20px;
-    font-size: 0.8em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.6em;
     font-family: 'Oswald', sans-serif;
+    vertical-align: middle;
+
+
+}
+
+.terms {
+padding-top: 15px;
 }
 
 #parallelogram {
@@ -209,6 +243,14 @@ clip-path: polygon(2px 19.72%, 95.12% 3.17%, 94.25% 90.80%, 16px 84.84%);
 padding: 30px
 }
 
+#bioshaperight1 {
+    margin: auto;
+    height: auto;
+    background: #212478;
+    clip-path: polygon(2px 19.72%, 95.12% 3.17%, 94.25% 90.80%, 16px 84.84%);
+    padding: 30px
+    }
+
 #bioshapeleft {
     margin: auto;
     height: auto;
@@ -217,6 +259,13 @@ padding: 30px
     padding: 30px;
 }
 
+#bioshapeleft1 {
+    margin: auto;
+    height: auto;
+    background: #212478;
+    clip-path: polygon(2px 2.79%, 96.04% 12.22%, 92.67% 87.79%, 11px 84.24%);
+    padding: 30px;
+}
 .bgeventshead {
     background-image: url("images/moorditj.jpg");
     background-size:cover;
@@ -227,6 +276,20 @@ padding: 30px
     padding-left: 120px;
 }
 
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+a:active {
+    text-decoration: underline;
+}
 
 
 #parallelogramevents {
