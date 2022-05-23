@@ -1,0 +1,43 @@
+@media only screen and (max-width:1100px){
+
+}
+
+@media only screen and (max-width:768px){
+.footer {
+text-align: center;
+}
+.event {
+    max-width: 100%;
+}
+
+.featured-events {
+    margin-top: -10px;
+}
+
+.intro {
+    background: none;
+    background-color:lightgrey;
+}
+
+.nestled {
+    padding-top: 15px;
+}
+
+.img-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+}
+@media only screen and (max-width:576px){
+
+
+    #parallelogramevents {
+        margin: auto;
+        height: auto;
+        background: #FC7475;
+        clip-path: polygon(4px 8.42%, 99.51% 4.71%, 98.85% 83.01%, -1px 79.83%);
+        padding: 30px;
+}
+}
