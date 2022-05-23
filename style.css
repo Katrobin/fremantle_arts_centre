@@ -1,7 +1,27 @@
+/*   
+Theme Name: Fremantle Arts Centre events website
+Theme URI: 
+Description: Theme for Fremantle Arts Centre dedicated events website
+Author: Kath Robinson
+Author URI: 
+Version: 1
+*/ 
+
+
+
 .navbar {
     font-family: 'Oswald', sans-serif;
     font-size: 0.8em;
     background-color: #212478;
+}
+
+
+h1 {
+        color: white;
+        font-family: dirtstorm, sans-serif;
+        font-weight: 400;
+        font-size: 2.3em;
+        font-style: normal;
 }
 
 h2 {
@@ -13,7 +33,7 @@ font-size: 1.3em;
 h3 {
     font-family: dirtstorm, sans-serif;
     font-weight: 400;
-    font-size: 1.8em;
+    font-size: 2em;
     font-style: normal;
     
 }
