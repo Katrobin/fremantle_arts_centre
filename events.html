@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
@@ -52,167 +53,190 @@
 
 
     <section class="container-fluid pad20 bg3"> <!-- section for events listing grid including banner -->
-        <div class="row justify-content-center" id="parallelogramevents"> <!-- upcoming events banner -->
+        <div class="row justify-content-center what-banner" id="parallelogramevents"> <!-- upcoming events banner -->
           <h2 class="whattext">Upcoming events at Fremantle Arts Centre</h2> 
           </div>
-<div class="container-fluid text-center pad10">
+<div class="container-fluid events-text pad10"> <!-- container fluid upcoming event text-->
             <div class="container">
- <p>The hottest tickets in town at the coolest venue in Fremantle. This is your chance to experience live music with the ultimate Freo vibe. <br> Tickets start at $99, get yours now and don't forget to tell your mates! Fremantle Arts Centre concerts are like no other. </p>
+ <span>The hottest tickets in town at the coolest venue in Fremantle, Fremantle Arts Centre concerts are like no other. This is your chance to experience live music with the ultimate Freo vibe. Tickets start at $99, get yours now and don't forget to tell your mates! </span>
                 
             </div> 
       
           </div> <!-- container fluid upcoming event text-->
 
 <!-- event listing grid -->
-<div class = "container-fluid">        
-<div class="row pad30">
-<div class="col-md-1"></div>
+<div class= "container-fluid"> 
+    <div class= "container">  
+<div class="row eventpad">
+    <div class="col-md-2">
+        <h3>Ocean Alley</h3>
+        <ul class="list-unstyled list-style">
+            <li>Date: 4 May 2022</li>
+            <li>Time: 7.30pm</li>
+            <li>tickets: $99</li>
+          </ul>
+          <div>
+          <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+          <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
+        
+        </div>  
+
+
+<div class="col-md-4 col-sm-6">
+    <img class="image-fluid" src="images/oceansquare.jpg" alt="6 members of Ocean Alley standing in a row">
+</div>
+
+
 <div class="col-md-2">
-<h3>Ocean Alley</h3>
-<p>Date: 4 May 2022 <br>
-    Time: 7.30pm <br>
-    Tickets: $99</p>
-    <div>
-    <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-    <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
-</div>
+    <h3>Tim Rogers</h3>
+    <ul class="list-unstyled list-style">
+        <li>Date: 17 May 2022</li>
+        <li>Time: 7.30pm</li>
+        <li>tickets: $99</li>
+      </ul>
+      <div>
+      <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+      <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
+    
+    </div>  
 
 
-<div class="col-md-3">
-    <img src="images/oceansquare.jpg" alt="6 members of Ocean Alley standing in a row">
-</div>
-
-<div class="col-md-1"></div>
-<div class="col-md-2">
-<h3>Tim Rogers</h3>
-<p>Date: 7 May 2022 <br>
-    Time: 7.30pm <br>
-    Tickets: $99</p>
-    <div>
-    <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-    <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
-</div>
-
-
-<div class="col-md-3">
-    <img src="images/timsquare.jpg" alt="Tim Rogers wearing an oversided hat">
+<div class="col-md-4 col-sm-6">
+    <img class="image-fluid" src="images/timsquare.jpg" alt="Tim Rogers wearing an oversided hat">
 </div>
 
 
 </div> <!-- row event listing-->
 
-<div class="row pad30">
-    <div class="col-md-1"></div>
+<div class="row eventpad">
     <div class="col-md-2">
-    <h3>Leon Bridges</h3>
-    <p>Date: 17 July 2022 <br>
-        Time: 7.30pm <br>
-        Tickets: $99</p>
-        <div>
-        <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-        <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
+        <h3>Leon Bridges</h3>
+        <ul class="list-unstyled list-style">
+            <li>Date: 17 July 2022</li>
+            <li>Time: 7.30pm</li>
+            <li>tickets: $99</li>
+          </ul>
+          <div>
+          <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+          <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
+        
+        </div>  
+    
+    
+    <div class="col-md-4 col-sm-6">
+        <img class="image-fluid" src="images/leonsquare.jpg" alt="Leon Bridges getting out of a car">
     </div>
     
-    
-    <div class="col-md-3">
-        <img src="images/leonsquare.jpg" alt="Leon Bridges getting out of a car">
-    </div>
-    
-    <div class="col-md-1"></div>
+   
     <div class="col-md-2">
-    <h3>L.A.B.</h3>
-    <p>Date: 3 August 2022 <br>
-        Time: 7.30pm <br>
-        Tickets: $99</p>
-        <div>
-        <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-        <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
-    </div>
+        <h3>L.A.B.</h3>
+        <ul class="list-unstyled list-style">
+            <li>Date: 3 August 2022</li>
+            <li>Time: 7.30pm</li>
+            <li>tickets: $99</li>
+          </ul>
+          <div>
+          <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+          <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
+        
+        </div>  
     
     
-    <div class="col-md-3">
-        <img src="images/labsquare.jpg" alt="5 members of L.A.B sitting in a row">
+    <div class="col-md-4 col-sm-6">
+        <img class="image-fluid" src="images/labsquare.jpg" alt="5 members of L.A.B sitting in a row">
     </div>
 
     
     </div> <!-- row event listing-->
 
-    <div class="row pad30">
-        <div class="col-md-1"></div>
+    <div class="row eventpad">
+       
         <div class="col-md-2">
-        <h3>Pixies</h3>
-        <p>Date: 1 September 2022 <br>
-            Time: 7.30pm <br>
-            Tickets: $99</p>
-            <div>
-            <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-            <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
+            <h3>Pixies</h3>
+            <ul class="list-unstyled list-style">
+                <li>Date: 1 September 2022</li>
+                <li>Time: 7.30pm</li>
+                <li>tickets: $99</li>
+              </ul>
+              <div>
+              <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+              <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
+            
+            </div>  
+        
+        
+        <div class="col-md-4 col-sm-6">
+            <img class="image-fluid" src="images/pixiessquare.jpg" alt="4 members of Pixies standing in a line">
         </div>
         
-        
-        <div class="col-md-3">
-            <img src="images/pixiessquare.jpg" alt="4 members of Pixies standing in a line">
-        </div>
-        
-        <div class="col-md-1"></div>
+      
+
         <div class="col-md-2">
-        <h3>Khruangbin</h3>
-        <p>Date: 11 October 2022 <br>
-            Time: 7.30pm <br>
-            Tickets: $99</p>
-            <div>
-            <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-            <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
-        </div>
+            <h3>Khruangbin</h3>
+            <ul class="list-unstyled list-style">
+                <li>Date: 11 October 2022</li>
+                <li>Time: 7.30pm</li>
+                <li>tickets: $99</li>
+              </ul>
+              <div>
+              <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+              <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
+            
+            </div>        
         
-        
-        <div class="col-md-3">
-            <img src="images/krugsquare.jpg" alt="members of Khruangbin on stage with green stage lights">
+        <div class="col-md-4 col-sm-6">
+            <img class="image-fluid" src="images/krugsquare.jpg" alt="members of Khruangbin on stage with green stage lights">
         </div>
     
         
         </div> <!-- row event listing-->
     
 
-        <div class="row pad30">
-            <div class="col-md-1"></div>
-            <div class="col-md-2">
-            <h3>Lime Cordiale</h3>
-            <p>Date: 1 November 2022 <br>
-                Time: 7.30pm <br>
-                Tickets: $99</p>
-                <div>
-                <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-                <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
+        <div class="row eventpad">
+            
+     <div class="col-md-2">
+                <h3>Lime Cordiale</h3>
+                <ul class="list-unstyled list-style">
+                    <li>Date: 1 November 2022</li>
+                    <li>Time: 7.30pm</li>
+                    <li>tickets: $99</li>
+                  </ul>
+                  <div>
+                  <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+                  <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
+                
+                </div>         
+            <div class="col-md-4 col-sm-6">
+                <img class="image-fluid" src="images/limesquare.jpg" alt="2 members of Lime Cordiale lying on a bed of bright flowers">
             </div>
             
-            
-            <div class="col-md-3">
-                <img src="images/limesquare.jpg" alt="2 members of Lime Cordiale lying on a bed of bright flowers">
-            </div>
-            
-            <div class="col-md-1"></div>
+        
             <div class="col-md-2">
             <h3>DMAs</h3>
-            <p>Date: 1 December 2022 <br>
-                Time: 7.30pm <br>
-                Tickets: $99</p>
-                <div>
-                <button type="button" class="btn btn-sm btn-stylebold">Buy tickets</button></div>
-                <div class="pad10"><button type="button" class="btn btn-sm btn-friends">Invite Friends </button></div>
-            </div>
+            <ul class="list-unstyled list-style">
+                <li>Date: 1 December 2022</li>
+                <li>Time: 7.30pm</li>
+                <li>tickets: $99</li>
+              </ul>
+              <div>
+              <a class="btn btn-sm btn-stylebold" href="#">Buy tickets</a></div>
+              <div class="pad10"><a class="btn btn-sm btn-friends" href="#">Invite Friends</a></div>
             
+            </div> 
             
-            <div class="col-md-3">
-                <img src="images/dmasquare.jpg" alt="members of DMAs performing on stage with bright yellow stage lights">
+            <div class="col-md-4 col-sm-6">
+                <img class="image-fluid" src="images/dmasquare.jpg" alt="members of DMAs performing on stage with bright yellow stage lights">
             </div>
         
             
-            </div> <!-- row event listing-->
+           
 
-        
-        </div>  <!-- container-fluid event list grid-->
-          </section> <!-- end of section for events listing grid including banner -->
+          
+
+        </div>     <!-- row event listing-->
+        </div>  <!-- container event list grid -->
+        </div> <!-- container-fluid event list grid-->
+        </section> <!-- end of section for events listing grid including banner -->
 
 <!-- want more section   -->        
 <div class="container-fluid wantmorebg pad30">
@@ -225,10 +249,10 @@
 
 
     <div class="col-md-6 pad30">
-        <img src="images/emaillg.png" alt="email us icon">
-        <img src="images/facebooklg.png" alt="facebook logo">
-        <img src="images/instagramlg.png" alt="Instagram logo">
-        <img src="images/twitterlg.png" alt="Twitter logo">
+        <a href="#"><img src="images/emaillg.png" alt="email us icon"></a>
+        <a href=https://www.facebook.com/fremantleartscentre><img src="images/facebooklg.png" alt="facebook logo"></a>
+        <a href=https://www.instagram.com/fremantleartscentre><img src="images/instagramlg.png" alt="Instagram logo"></a>
+        <a href=https://twitter.com/FreoArtsCentre><img src="images/twitterlg.png" alt="Twitter logo"></a>
     
 
 
@@ -239,37 +263,43 @@
 </div> <!-- container fluid want more section -->
 
 <!-- footer -->
-          <footer class="container-fluid footer">
-            <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="images/FAClogowhite.png" alt="Fremantle Arts Centre logo" height="36">
+<footer class="container-fluid footer">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <img src="images/FAClogowhite.png" alt="Fremantle Arts Centre logo" height="40">
+  
+    
+        </div>
+    
+        <div class="col-md-4 text-center">
+         
+            <a href=https://www.facebook.com/fremantleartscentre>
+              <img src="images/facebook.png" alt="facebook logo"></a>
+              <a href=https://www.instagram.com/fremantleartscentre>
+                <img src="images/instagram.png" alt="Instagram logo"></a>
+            <a href=https://twitter.com/FreoArtsCentre>
+              <img src="images/twitter.png" alt="Twitter logo"></a>
+    
+    
+        </div>
+        <div class="col-md-3 terms">
+            <span>1 Finnerty St, Fremantle, WA 6160 </span>
+    
             
-                </div>
-            
-                <div class="col-md-4">
-                    <p>Connect with us</p>
-                    <img src="images/facebook.png" alt="facebook logo">
-                    <img src="images/instagram.png" alt="Instagram logo">
-                    <img src="images/twitter.png" alt="Twitter logo">
-            
-            
-                </div>
-                <div class="col-md-4">
-                    <p>Find Us</p>
-                    <span>1 Finnerty St
-                    <br>Fremantle, WA, 6160
-            
-                    
-                </div>
-            
-            </div> <!-- row -->
-            
-            </div> <!-- container -->
-            
-            
-            
-            </footer>
+        </div>
+        <div class="col-md-3 terms">Terms and Conditions | Privacy Policy</div>
+      </div> <!-- row -->
+     
+  
+  
+    
+    </div> <!-- container -->
+    
+    
+    
+    </footer>
+  
             
             
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
