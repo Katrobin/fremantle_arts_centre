@@ -3,7 +3,7 @@
   <div class="container">
   <div class="row">
       <div class="col-md-2">
-          <img src="images/FAClogowhite.png" alt="Fremantle Arts Centre logo" height="40">
+          <img src="http://206.189.45.97/~mesh21/sub1/wp-content/themes/fremantle_arts_centre/images/FAClogowhite.png" alt="Fremantle Arts Centre logo" height="40">
 
   
       </div>
@@ -11,11 +11,11 @@
       <div class="col-md-4 text-center">
        
           <a href=https://www.facebook.com/fremantleartscentre>
-            <img src="images/facebook.png" alt="facebook logo"></a>
+            <img src="http://206.189.45.97/~mesh21/sub1/wp-content/themes/fremantle_arts_centre/images/facebook.png" alt="facebook logo"></a>
             <a href=https://www.instagram.com/fremantleartscentre>
-              <img src="images/instagram.png" alt="Instagram logo"></a>
+              <img src="http://206.189.45.97/~mesh21/sub1/wp-content/themes/fremantle_arts_centre/images/instagram.png" alt="Instagram logo"></a>
           <a href=https://twitter.com/FreoArtsCentre>
-            <img src="images/twitter.png" alt="Twitter logo"></a>
+            <img src="http://206.189.45.97/~mesh21/sub1/wp-content/themes/fremantle_arts_centre/images/twitter.png" alt="Twitter logo"></a>
   
   
       </div>
