@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="index.html"> 
-        <img src="images/FAClogowhite.png" alt="Fremantle Arts Centre logo" height="36"></a>
+        <img src="http://206.189.45.97/~mesh21/sub1/wp-content/themes/fremantle_arts_centre/images/FAClogowhite.png" alt="Fremantle Arts Centre logo" height="36"></a>
       
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
